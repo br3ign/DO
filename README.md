@@ -5,6 +5,6 @@
 1. DO_StartUp.sh
 
 
-// DO_StartUp.sh
+DO_StartUp.sh
 
 This script a script you can run at the first run of a new Droplet on DigitalOcean
