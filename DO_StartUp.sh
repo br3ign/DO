@@ -27,6 +27,7 @@ usermod -aG sudo $varUser
 read -p "Grant $varUser ssh access with current key? (Y/N) " grantSSH
 
 if [ "$grantSSH" = "Y" ] || [ "$grantedSSH" = "y" ]; then
+	# Copy SSH key from root to new user directory and amend ownership
 	$(rsync --archive --chown=$varUser:$varUser ~/.ssh /home/$varUser)
 fi
 
