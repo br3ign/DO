@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 # Digital Ocean user setup script 
-# uncle_beppy
+# 
 
 # This script assumes you are the root user
 # This script also assumes you are running on Ubuntu
